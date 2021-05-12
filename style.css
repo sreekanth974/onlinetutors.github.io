@@ -85,7 +85,7 @@
     background-position: center;
     background-attachment: fixed;
     -webkit-animation: background 10s alternate infinite;
-            animation: background 10s alternate infinite;
+          animation: background 10s alternate infinite;
   }
   
   #home .content {
