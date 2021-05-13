@@ -243,6 +243,7 @@ body {
   -webkit-transform: translateY(12rem);
   transform: translateY(12rem);
   padding: 0 0.4rem;
+  text-transform: none;
 }
 
 #course .box-container .box:hover p {
@@ -260,6 +261,18 @@ body {
 
 #course .box-container .box:hover {
   background: #333;
+}
+
+#course .box-container .box .rating{
+  font-size: 1.5em;
+}
+
+#course .box-container .box .price{
+  font-size: 1.5em;
+}
+
+#course .box-container .box .rating .checked{
+  color: orange;
 }
 
 #service {
@@ -334,6 +347,7 @@ body {
 #service .box-container .box .info p {
   font-size: 1.5rem;
   color: #333;
+  text-transform: none;
 }
 
 #service .box-container .box:nth-child(2) {
@@ -424,6 +438,7 @@ body {
   font-size: 1.6rem;
   padding: 1rem;
   color: #333;
+  text-transform: none;
 }
 
 #testimonial .box-container .box .info p i {
