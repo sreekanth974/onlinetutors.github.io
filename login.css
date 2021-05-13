@@ -9,7 +9,9 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-
+label,input {
+  font-size: 14px;
+}
 button {
   background-color: #04AA6D;
   color: white;
