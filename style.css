@@ -238,12 +238,14 @@
     -webkit-transform: translateY(12rem);
             transform: translateY(12rem);
     padding: 0 .4rem;
+    text-transform: none;
   }
   
   #course .box-container .box:hover p {
     opacity: 1;
     -webkit-transform: translateY(0rem);
             transform: translateY(0rem);
+    
   }
   
   #course .box-container .box:hover img {
