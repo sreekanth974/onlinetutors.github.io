@@ -16,8 +16,8 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 
-label,input {
-  font-size: 14px;
+#s1 {
+  font-size: 17px;
 }
 
 hr {
