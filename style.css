@@ -256,6 +256,18 @@
   #course .box-container .box:hover {
     background: #333;
   }
+
+  #course .box-container .box .price{
+    font-size: 1.5em;
+  }
+
+  #course .box-container .box .rating{
+    font-size: 1.5em;
+  }
+
+  #course .box-container .box .rating .checked{
+    color: orange; 
+  }
   
   #service {
     display: -ms-grid;
@@ -294,7 +306,7 @@
   
   #service .box-container .box {
     background: #fff;
-    max-width: 60rem;
+    max-width: 65rem;
     border-radius: .5rem;
     -webkit-box-shadow: 0 0 .3rem #333;
             box-shadow: 0 0 .3rem #333;
@@ -309,6 +321,7 @@
     padding: 4rem 2rem;
     margin: 2rem;
     clear: both;
+    text-align: justify;
   }
   
   #service .box-container .box img {
@@ -329,6 +342,7 @@
   #service .box-container .box .info p {
     font-size: 1.5rem;
     color: #333;
+    text-transform: none;
   }
   
   #service .box-container .box:nth-child(2) {
@@ -419,6 +433,7 @@
     font-size: 1.6rem;
     padding: 1rem;
     color: #333;
+    text-transform: none;
   }
   
   #testimonial .box-container .box .info p i {
